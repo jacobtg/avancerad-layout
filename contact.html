@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Daily Newspaper - the Lorem Ipsum">
+  <link rel="stylesheet" href="https://unpkg.com/modern-css-reset/dist/reset.min.css">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+  <title>the Lorem Ipsum - Headlines</title>
+</head>
+
+<body>
+  <header>
+    <h1>the Lorem Ipsum</h1>
+    <nav>
+      <a href="index.html">Headlines</a>
+      <a href="contact.html">Contact</a>
+      <a href="#">Local</a>
+      <a href="#">Weather</a>
+      <a href="#">Sports</a>
+    </nav>
+  </header>
+  <main>
+    <h2 id="main-title">Contact</h2>
+    <section>
+      <form class="" action="index.html" method="post">
+        <label for="firstname">First Name</label>
+        <input id="firstname" type="text" name="firstname" value="">
+        <label for="lastname">Last Name</label>
+        <input id="lastname" type="text" name="lastname" value="">
+        <label for="email">Email</label>
+        <input id="email" type="email" name="email" value="">
+        <label for="country">Country</label>
+        <select id="country" name="country">
+          <option value="australia">Australia</option>
+          <option value="canada">Canda</option>
+          <option value="usa">USA</option>
+          <option value="eritrea">Eritrea</option>
+          <option value="sweden">Sweden</option>
+        </select>
+
+        <label for="subject">Subject</label>
+        <textarea id="subject" placeholder="Write something to us..."></textarea>
+
+        <fieldset>
+          <legend>Favorite objects</legend>
+          <label for="galaxy">Galaxy</label>
+          <input type="checkbox" name="galaxy" value="Galaxies" id="galaxy">
+          <label for="planet">Planet</label>
+          <input type="checkbox" name="planet" value="Planet" id="planet">
+          <label for="star">Star</label>
+          <input type="checkbox" name="star" value="Star" id="star">
+        </fieldset>
+        <fieldset>
+          <legend>Visit first</legend>
+          <label for="mars">Mars</label>
+          <input type="radio" name="favorite" value="Mars" id="mars">
+          <label for="venus">Venus</label>
+          <input type="radio" name="favorite" value="Venus" id="venus">
+        </fieldset>
+        <button type="submit">Send</button>
+      </form>
+    </section>
+    <section class="bottom">
+      <h2>Weather</h2>
+      <div class="weather-container">
+        <img src="weather-symbols/cloudy.svg" alt="cloudy">
+        <img src="weather-symbols/half-cloudy.svg" alt="half cloudy">
+        <img src="weather-symbols/rain.svg" alt="rain">
+        <img src="weather-symbols/lightning.svg" alt="lightning">
+        <img src="weather-symbols/sun.svg" alt="sun">
+      </div>
+    </section>
+  </main>
+  <footer>
+    <a href="contact.html">Contact</a>
+    <a href="#">Jobs</a>
+    &copy; 2022 lorem inc.
+  </footer>
+</body>
+
+</html>

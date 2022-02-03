@@ -1,0 +1,158 @@
+/* FORTSÄTT MED DEL 19 NÄSTA GÅNG */
+body {
+  background-color: #F7F6F2;
+  font-family: Roboto, sans-serif;
+  margin: 10px;
+}
+
+h1, .bottom h2, nav, footer, article {
+  padding: 2vh 2vw;
+}
+
+h1, h2, nav, footer {
+  text-align: center;
+}
+
+article {
+  background-color: #EEEAE2;
+  text-align: justify;
+  border: 1px solid black;
+  border-radius: 25px;
+  margin: 1vh 1vw;
+}
+
+.weather-container {
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+}
+
+.weather-container img {
+  display: inline-block;
+}
+
+section.bottom h2 {
+  margin-bottom: 0.5vh;
+}
+
+img.dalmatian {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 320px;
+  width: 100%;
+}
+
+img.football {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 400px;
+  width: 100%;
+}
+
+header {
+  background-color: #EEEAE2;
+  border: 1px solid black;
+  border-radius: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
+#main-title {
+  margin: 3vh 0;
+}
+
+aside {
+  border: 1px solid black;
+  border-radius: 25px;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+a {
+  color: hsla(90, 0%, 30%, 1);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+nav a {
+  font-size: 1.6rem;
+  margin: 1vh 2vw;
+}
+
+section.bottom, footer {
+  font-size: 1.4rem;
+}
+
+form {
+  background-color: #EEEAE2;
+}
+
+input, select, textarea, button {
+  background-color: #F7F6F2;
+}
+
+@media only screen and (min-width: 600px) {
+  section.top {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  article {
+    margin: 0 1vw;
+  }
+}
+
+form {
+  border: 1px solid black;
+  border-radius: 25px;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  max-width: 600px;
+}
+
+label {
+  margin: 1vh 1vw 0 1vw;
+}
+
+input, select, textarea {
+  margin: 0 1vw 0 1vw;
+}
+
+legend {
+  font-weight: bold;
+}
+
+button {
+  margin-top: 1vh;
+}
+
+@media (min-width: 600px) {
+  form {
+    margin: 0 auto;
+    grid-template-columns: 1fr 3fr;
+  }
+
+  legend {
+    grid-column: 1;
+    text-align: right;
+    margin: 1vh 1vw;
+  }
+
+  label {
+    grid-column: 1;
+    text-align: right;
+    margin: 1vh 1vw;
+  }
+
+  input, select, button {
+    grid-column: 2/-1;
+    margin: 1vh 1vw
+  }
+}
